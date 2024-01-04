@@ -1,5 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.radial{
+  color:#0f021c;
+    background: 'radial-gradient(circle, #4F46E5, #1F2937)',
+
+}
 body {
   margin: 0;
+  background-color: rgb(6, 1, 12);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
